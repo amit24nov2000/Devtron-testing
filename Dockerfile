@@ -7,8 +7,8 @@ RUN go mod download
 
 COPY *.go ./
 
-RUN go build -o /go-docker-learn
+RUN go build -o /devtron_testing
 
 EXPOSE 8080
 
-CMD [ "/go-docker-learn" ]
+CMD [ "/devtron_testing" ]
